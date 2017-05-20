@@ -16,5 +16,10 @@ namespace Project_Emerald
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Welcome to a project that's currently working progress called Project: Emerald and PLEASE note that there's bugs in this!");
+        }
     }
 }
